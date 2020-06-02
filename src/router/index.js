@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Login from '../components/Login.vue'
-
+require('../plugins/element.js')
 Vue.use(VueRouter)
 
 const routes = [
